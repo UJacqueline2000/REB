@@ -1,0 +1,15 @@
+.Education {
+border:solid 1px black;
+display:grid;
+grid-template-columns:1fr 1fr 2fr;
+background-image: url(rdaflag.png);
+}
+.board{
+    text-align:center;
+}
+.icons{
+    text-align:right;  
+}
+body{
+    
+}
