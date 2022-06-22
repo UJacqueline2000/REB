@@ -14,6 +14,8 @@ background-repeat: no-repeat;
 }
 .REB1{
     border:solid 1px black;
+    height: 30px;
+    color: black;
     display: grid;
     grid-template-columns:repeat(8,1fr);
     background-color: #c3daf4;
@@ -53,19 +55,17 @@ background-repeat: no-repeat;
 .cbcirembo{
     border: solid 1px black;
 }
-.Latest{
+.publication{
     display: grid;
     grid-template-columns:repeat(4,1fr);
-    width: 700px;
-    height: 580px;
-}
-.Children a{
-    font-family:sans-serif;
-    color:black;
+    height: 50px;
+    width: 650px;
+    background-color: aqua;
 }
 .Children {
-    width: 500px;
-    color:black;
+    width: 650px;
+    height:590px;
+    font-family:sans-serif;
 }
 .child{
    border-bottom: solid 3px blue;
@@ -92,23 +92,40 @@ background-repeat: no-repeat;
     grid-template-columns:repeat(2,1fr);  
     font-family:sans-serif;
     border: solid 1px black;
-    height: 620px;
+    height:643px;
+    width: 1338px;
 }
 .Useful a{
     border-bottom: solid 2px #3898d2;
     text-decoration: none;
 }
-.more{
-    width: 300px;
-    height: 20px;
+.More{
+    width: 610px;
+    height: 30px;
     color: black;
-    margin-left: 50px;
     border: solid 1px #c3daf4;
     text-align: center;
     background-color:#c3daf4 ;
-    border-radius: 5px;
+    border-radius: 10px;
 }
+.Basic{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);  
 
+}
+.Aboutreb{
+    display: grid;
+    grid-template-columns:repeat(2,1fr); 
+    background-color: #c3daf4;
+}
+.Mission{
+    margin-left: 50px;
+}
+.subfooter-content{
+    height: 60px;
+    text-align: center;
+    background-color: #3898d2;
+}
 
 
 
